@@ -8,6 +8,13 @@
 }
 
 .btn-primary{
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    padding: 20px 25px;
+    background: rgb(255, 144, 14);
+    font-size: 1.25rem;
+    cursor: pointer;
+    border: 0;
     
 }
 
@@ -66,4 +73,35 @@ nav li a {
 .banner-description{
     color: rgb(114, 114, 114);
 
+}
+
+.banner img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Responsive Media Queries */
+/* Mobile devices */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        
+        flex-direction: column;
+    }
+
+    
+}
+
+/* Tablet or Medium device */
+@media screen and (max-width: 960px) and (min-width: 576px) {
+    header{
+        padding: 40px;
+    }
+    nav{
+        
+        flex-direction: column;
+    }
+    
 }
