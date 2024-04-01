@@ -5,6 +5,7 @@
 
 *{
     font-family: "Work Sans", sans-serif;
+    margin: 5px;
 }
 
 .btn-primary{
@@ -207,6 +208,19 @@ main{
     width: 160px;
 
 }
+
+/* Footer section */
+
+.footer{
+    border-radius: 8px;
+    background: rgb(255, 244, 231);
+    text-align: center;
+    width: 90%;
+    /* height: 100px; */
+    padding: 40px;
+    margin: 2%;
+}
+
 
 
 
